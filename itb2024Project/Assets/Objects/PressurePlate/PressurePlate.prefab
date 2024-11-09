@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8684786651445317833}
   - component: {fileID: 9121071679200217778}
   - component: {fileID: 1137951765245058573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PressurePlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ Animator:
   m_GameObject: {fileID: 4831193093018920210}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 178c73a9c8edc2c478de4795fb9b50d9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 913665137c63ea243b2d3ae45031184d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  toggle: 0
 --- !u!65 &1137951765245058573
 BoxCollider:
   m_ObjectHideFlags: 0
