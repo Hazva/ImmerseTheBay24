@@ -237,10 +237,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3345745209282783019, guid: 2ccd6881a76a8a940ae4629302c249ee, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c7cc8fe58157dda4f82a2f2fb94d0192, type: 2}
     - target: {fileID: 4486748779208399015, guid: 2ccd6881a76a8a940ae4629302c249ee, type: 3}
       propertyPath: m_Name
       value: WaterBottle
