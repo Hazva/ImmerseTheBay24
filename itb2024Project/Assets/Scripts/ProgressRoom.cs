@@ -9,7 +9,8 @@ public class ProgressRoom : MonoBehaviour
     public GameObject[] targetObjects;
     public int numTargets;
     public int currentPresses;
-    public GameObject exitDoor; 
+    public GameObject exitDoor;
+    public Animator elevator;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,10 @@ public class ProgressRoom : MonoBehaviour
         targetObjects[currentPresses-1].GetComponent<MeshRenderer>().material = activeMaterial;
         if (currentPresses >= numTargets)
         {
-            exitDoor.SetActive(false);
+            if (exitDoor != null) 
+                exitDoor.SetActive(false);
+            if (elevator != null)
+                elevator.SetTrigger("Open");
         }
     }
 
