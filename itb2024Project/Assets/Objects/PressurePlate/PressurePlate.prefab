@@ -122,7 +122,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 178c73a9c8edc2c478de4795fb9b50d9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -150,6 +150,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   sound: {fileID: 7956013990485480686}
+  releaseTime: 0.1
 --- !u!65 &1137951765245058573
 BoxCollider:
   m_ObjectHideFlags: 0
