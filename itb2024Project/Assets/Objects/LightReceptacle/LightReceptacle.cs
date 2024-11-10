@@ -10,6 +10,7 @@ public class LightReceptacle : MonoBehaviour
     public Material offMaterial;
     public MeshRenderer mesh;
 	public AudioSource sound;
+    public float deactivationTime = 0.2f;
 
 	public UnityEvent onActivate;
     public UnityEvent onDeactivate;
@@ -47,7 +48,7 @@ public class LightReceptacle : MonoBehaviour
 
     IEnumerator DeactivateCoroutine()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(deactivationTime);
         Deactivate();
     }
 }
