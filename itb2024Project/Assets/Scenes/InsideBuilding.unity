@@ -481,7 +481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4192388269856673678, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4747915561714129712, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_Colliders.Array.size
@@ -731,6 +731,10 @@ PrefabInstance:
     - target: {fileID: 464066864429896064, guid: ddc0e8e33c7344c9fbe153aac771158a, type: 3}
       propertyPath: m_Name
       value: FinalRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 464066864429896064, guid: ddc0e8e33c7344c9fbe153aac771158a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5902211107505780736, guid: ddc0e8e33c7344c9fbe153aac771158a, type: 3}
       propertyPath: m_LocalPosition.x
