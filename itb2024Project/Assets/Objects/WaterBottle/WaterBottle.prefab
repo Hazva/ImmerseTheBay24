@@ -333,9 +333,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound: {fileID: 8300000, guid: 92f675ad210cebe499096114b5cd6d51, type: 3}
-  volume: 0.1
-  forceCoefficient: 0.1
-  maxVolume: 3
+  volume: 0.2
+  forceCoefficient: 0.15
+  maxVolume: 5
   minForce: 0.5
 --- !u!136 &196827118401188570
 CapsuleCollider:

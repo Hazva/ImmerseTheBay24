@@ -21,6 +21,14 @@ public class PressurePlate : MonoBehaviour
 		animator = GetComponent<Animator>();
 	}
 
+	private void OnTriggerEnter(Collider other)
+	{
+		if (!other.isTrigger)
+		{
+			sound.Play();
+		}
+	}
+
 	private void OnTriggerStay(Collider other)
 	{
 		if (!other.isTrigger)
