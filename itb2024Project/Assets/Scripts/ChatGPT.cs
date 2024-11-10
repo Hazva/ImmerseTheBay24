@@ -7,7 +7,7 @@ using UnityEngine.Purchasing.MiniJSON;
 public class EvilRobot : MonoBehaviour
 {
 
-	// We intended to do actual ChatGPT integration, but free credits aren't a thing so we're just not.
+	// I spent five dollars.
 
 	const string URL = "https://api.openai.com/v1/chat/completions";
 	// shhhhh
@@ -36,7 +36,7 @@ public class EvilRobot : MonoBehaviour
 				"}," +
 				"{" +
 					"\"role\": \"user\"," +
-					"\"content\": " + input +
+					"\"content\": \"" + input + "\"" + 
 				"}" +
 			"]" +
 		"}";
