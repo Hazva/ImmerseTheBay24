@@ -53,6 +53,7 @@ MonoBehaviour:
   offMaterial: {fileID: 2100000, guid: 831c31d949dd6164fa65c5fbd1ca8d7e, type: 2}
   mesh: {fileID: 2633564902345247594}
   sound: {fileID: 3571527834597109556}
+  deactivationTime: 0.2
   onActivate:
     m_PersistentCalls:
       m_Calls: []
@@ -143,7 +144,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 01620a611288feb42910d95f06add0c7, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.155
+  m_Volume: 0.212
   m_Pitch: 1
   Loop: 0
   Mute: 0
