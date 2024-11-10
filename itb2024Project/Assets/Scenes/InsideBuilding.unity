@@ -136,6 +136,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1629953009970554876, guid: 2ccd6881a76a8a940ae4629302c249ee, type: 3}
+      propertyPath: m_VelocityScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629953009970554876, guid: 2ccd6881a76a8a940ae4629302c249ee, type: 3}
+      propertyPath: m_VelocityDamping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629953009970554876, guid: 2ccd6881a76a8a940ae4629302c249ee, type: 3}
+      propertyPath: m_ThrowVelocityScale
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629953009970554876, guid: 2ccd6881a76a8a940ae4629302c249ee, type: 3}
+      propertyPath: m_ThrowAngularVelocityScale
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4486748779208399015, guid: 2ccd6881a76a8a940ae4629302c249ee, type: 3}
       propertyPath: m_Name
       value: WaterBottle
@@ -370,6 +386,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 538137708763531110, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: deactivationTime
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 750372893831665680, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_Colliders.Array.size
       value: 1
@@ -386,9 +406,21 @@ PrefabInstance:
       propertyPath: m_Colliders.Array.data[0]
       value: 
       objectReference: {fileID: 2838296562044161545}
+    - target: {fileID: 750372893831665680, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326833523275862864, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: deactivationTime
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2790946081436277855, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_Convex
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2978302053561600969, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: deactivationTime
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3584040635493021221, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_Colliders.Array.size
@@ -406,6 +438,10 @@ PrefabInstance:
       propertyPath: m_Colliders.Array.data[0]
       value: 
       objectReference: {fileID: 2838296562044161546}
+    - target: {fileID: 3584040635493021221, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
     - target: {fileID: 4114183564857657016, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_ProvidesContacts
       value: 0
@@ -416,7 +452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4192388269856673678, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4747915561714129712, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_Colliders.Array.size
@@ -435,8 +471,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2838296562044161543}
     - target: {fileID: 4747915561714129712, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747915561714129712, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_FilterSelectionByHitNormal
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086642138695433429, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: deactivationTime
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5284613585316281446, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_Colliders.Array.size
@@ -454,6 +498,10 @@ PrefabInstance:
       propertyPath: m_Colliders.Array.data[0]
       value: 
       objectReference: {fileID: 1649088905}
+    - target: {fileID: 5284613585316281446, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
     - target: {fileID: 5793753089471041279, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_MatchDirectionalInput
       value: 1
@@ -462,6 +510,10 @@ PrefabInstance:
       propertyPath: m_TeleportationProvider
       value: 
       objectReference: {fileID: 1210336804}
+    - target: {fileID: 5957829663160884631, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: deactivationTime
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7392379498763044761, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_Size.z
       value: 1.1796288
@@ -494,6 +546,10 @@ PrefabInstance:
       propertyPath: m_Colliders.Array.data[0]
       value: 
       objectReference: {fileID: 2838296562044161542}
+    - target: {fileID: 7555647543173910108, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
     - target: {fileID: 7761607424085169473, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.27
@@ -550,9 +606,21 @@ PrefabInstance:
       propertyPath: m_Colliders.Array.data[0]
       value: 
       objectReference: {fileID: 2838296562044161544}
+    - target: {fileID: 7868470636812847394, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
     - target: {fileID: 7913230041674731666, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_Convex
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8063332428113782251, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: deactivationTime
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8645102478189683198, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: deactivationTime
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8802250299571348174, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_Convex
@@ -566,6 +634,10 @@ PrefabInstance:
       propertyPath: m_Colliders.Array.data[0]
       value: 
       objectReference: {fileID: 386615221}
+    - target: {fileID: 9151896389856400507, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8802250299571348174, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
     - {fileID: 2790946081436277855, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
@@ -654,6 +726,10 @@ PrefabInstance:
       propertyPath: m_TeleportationProvider
       value: 
       objectReference: {fileID: 1210336804}
+    - target: {fileID: 1766483768547803965, guid: 0b0c68720a735482098b3c9f778f4a0b, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
     - target: {fileID: 7439897171540924691, guid: 0b0c68720a735482098b3c9f778f4a0b, type: 3}
       propertyPath: rooms
       value: 
@@ -772,6 +848,10 @@ PrefabInstance:
       propertyPath: m_TeleportationProvider
       value: 
       objectReference: {fileID: 1210336804}
+    - target: {fileID: 649380988671165532, guid: a5c2b3e7a305146c1a68d5996b13a190, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
     - target: {fileID: 935835469724788502, guid: a5c2b3e7a305146c1a68d5996b13a190, type: 3}
       propertyPath: m_MatchDirectionalInput
       value: 1
@@ -780,13 +860,17 @@ PrefabInstance:
       propertyPath: m_TeleportationProvider
       value: 
       objectReference: {fileID: 1210336804}
+    - target: {fileID: 935835469724788502, guid: a5c2b3e7a305146c1a68d5996b13a190, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
     - target: {fileID: 6895740807427016496, guid: a5c2b3e7a305146c1a68d5996b13a190, type: 3}
       propertyPath: m_Name
       value: FinalRoom
       objectReference: {fileID: 0}
     - target: {fileID: 6895740807427016496, guid: a5c2b3e7a305146c1a68d5996b13a190, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9134484838419157531, guid: a5c2b3e7a305146c1a68d5996b13a190, type: 3}
       propertyPath: m_MatchDirectionalInput
@@ -796,6 +880,10 @@ PrefabInstance:
       propertyPath: m_TeleportationProvider
       value: 
       objectReference: {fileID: 1210336804}
+    - target: {fileID: 9134484838419157531, guid: a5c2b3e7a305146c1a68d5996b13a190, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2147483648
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
