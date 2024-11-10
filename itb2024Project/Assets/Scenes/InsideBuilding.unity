@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12729174, g: 0.13414155, b: 0.12114238, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731661, g: 0.13414633, b: 0.121077925, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -482,6 +482,14 @@ PrefabInstance:
       propertyPath: deactivationTime
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 5144307106579954185, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: elevator
+      value: 
+      objectReference: {fileID: 3049411968383421171}
+    - target: {fileID: 5144307106579954185, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
+      propertyPath: exitDoor
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5284613585316281446, guid: ce79c836cf5464a9080dc970945d12ff, type: 3}
       propertyPath: m_Colliders.Array.size
       value: 1
@@ -787,6 +795,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b0c68720a735482098b3c9f778f4a0b, type: 3}
+--- !u!95 &3049411968383421171 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5512286474382351672, guid: 0b0c68720a735482098b3c9f778f4a0b, type: 3}
+  m_PrefabInstance: {fileID: 3049411968383421170}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8175063742356624603 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6895740807427016496, guid: a5c2b3e7a305146c1a68d5996b13a190, type: 3}
