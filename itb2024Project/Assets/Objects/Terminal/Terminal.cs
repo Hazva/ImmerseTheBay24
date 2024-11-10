@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Terminal : MonoBehaviour
 {
-    TMP_InputField inputField;
+    public TMP_InputField inputField;
 
 	public GameObject startScreen;
 	public GameObject inputScreen;

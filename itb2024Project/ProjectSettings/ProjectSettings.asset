@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Greebo Games
-  productName: immersethebay-starter
+  productName: itb2024Project
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -141,8 +141,7 @@ PlayerSettings:
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: 1289845123968438333, guid: 2840e0cf747c544efb28a981250d9c9f, type: 2}
-  - {fileID: -477476233972834345, guid: ed9844789a4342e46ab4c1e96e11b07b, type: 2}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -163,7 +162,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.GreeboGames.immersethebaystarter
+    Android: com.GreeboGames.itb2024Project
     Standalone: com.DefaultCompany.immersethebay-starter
   buildNumber:
     Standalone: 0
