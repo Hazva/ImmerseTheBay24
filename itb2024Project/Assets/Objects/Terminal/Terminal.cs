@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Terminal : MonoBehaviour
@@ -31,8 +32,13 @@ public class Terminal : MonoBehaviour
 		inputScreen.SetActive(false);
 		keyboard.SetActive(false);
 		StartCoroutine(gpt.PostResponse(text));
+		StartCoroutine(EndScene());
 	}
 
-	
+	IEnumerator EndScene()
+	{
+		yield return new WaitForSeconds(5);
+		SceneManager.LoadScene("Ending");
+	}
 
 }
