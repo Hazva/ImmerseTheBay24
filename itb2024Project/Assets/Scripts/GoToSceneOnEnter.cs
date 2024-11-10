@@ -20,6 +20,7 @@ public class GoToSceneOnEnter : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("A!!!");
         SceneManager.LoadScene(sceneName);
     }
 }
