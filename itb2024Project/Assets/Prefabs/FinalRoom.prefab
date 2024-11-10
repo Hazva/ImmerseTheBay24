@@ -2550,6 +2550,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55e96fb024c9a43da99e36ebe9e1cdb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1803621928489997705}
+        m_TargetAssemblyTypeName: Terminal, Assembly-CSharp
+        m_MethodName: SwapToKeyboard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4011579754559583724
 GameObject:
   m_ObjectHideFlags: 0
@@ -5819,6 +5834,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 426023235445481464}
     m_Modifications:
+    - target: {fileID: 310511351985097697, guid: 8053f60f443c78b428e250204f29bf85, type: 3}
+      propertyPath: outputText
+      value: 
+      objectReference: {fileID: 4670851024204754593}
     - target: {fileID: 4325516570893294660, guid: 8053f60f443c78b428e250204f29bf85, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -5880,6 +5899,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8053f60f443c78b428e250204f29bf85, type: 3}
+--- !u!114 &1803621928489997705 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 32983664525229338, guid: 8053f60f443c78b428e250204f29bf85, type: 3}
+  m_PrefabInstance: {fileID: 1833790649831975059}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dae1865349661342b69333aeca20364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2699270835482653911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4325516570893294660, guid: 8053f60f443c78b428e250204f29bf85, type: 3}

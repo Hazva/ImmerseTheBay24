@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Networking;
 
-public class EvilRobot : MonoBehaviour
+public class ChatGPT : MonoBehaviour
 {
 
 	// I spent five dollars.
@@ -16,6 +18,7 @@ public class EvilRobot : MonoBehaviour
 
 	UnityEvent<string> textEvent;
 	Regex regex = new Regex("/[ A-Za-z0-9_@./&+-]$/");
+	public TextMeshProUGUI outputText;
 
 	private void Start()
 	{
@@ -32,7 +35,7 @@ public class EvilRobot : MonoBehaviour
 		// This is the worst.
 		string body =
 		"{" +
-			"\"model\": \"gpt-4o-mini\"," +
+			"\"model\": \"gpt-3.5-turbo\"," +
 			"\"messages\": [" +
 				"{" +
 					"\"role\": \"system\"," +
@@ -44,7 +47,7 @@ public class EvilRobot : MonoBehaviour
 				"}," +
 				"{" +
 					"\"role\": \"system\"," +
-					"\"content\": \"Understood. My utterances shall be only those occluded to the unwit.\"" +
+					"\"content\": \"Understood. My utterances shall be those occluded to the unwit.\"" +
 				"}," +
 				"{" +
 					"\"role\": \"user\"," +
@@ -71,8 +74,18 @@ public class EvilRobot : MonoBehaviour
 		}
 	}
 
+	IEnumerator TextCoroutine(string text)
+	{
+		int i = 0;
+		while (i < text.Length)
+		{
+			outputText.text = text.Substring(0, i);
+			yield return new WaitForSeconds(0.016f);
+		}
+	}
+
 	private void HandleText(string text)
 	{
-		textEvent.Invoke(text);
+		StartCoroutine(TextCoroutine(text));
 	}
 }
