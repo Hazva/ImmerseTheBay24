@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 3308990912207163881}
   - component: {fileID: 1629953009970554876}
   - component: {fileID: 3606024303484377735}
+  - component: {fileID: 8227171425614126191}
   - component: {fileID: 196827118401188570}
   m_Layer: 0
   m_Name: WaterBottle
@@ -319,6 +320,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.13, y: 0.62, z: 0.13}
   m_Center: {x: 0, y: 0.315, z: 0}
+--- !u!114 &8227171425614126191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4486748779208399015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5a23f30f61642448556ec813fe31d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 92f675ad210cebe499096114b5cd6d51, type: 3}
+  volume: 0.1
+  forceCoefficient: 0.1
+  maxVolume: 3
+  minForce: 0.5
 --- !u!136 &196827118401188570
 CapsuleCollider:
   m_ObjectHideFlags: 0
