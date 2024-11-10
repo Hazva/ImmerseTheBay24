@@ -34,7 +34,10 @@ public class ProgressRoom : MonoBehaviour
 
     public void Unpress()
     {
-        currentPresses -= 1;
+        if (currentPresses > 0)
+        {
+            currentPresses -= 1;
+        }
         targetObjects[currentPresses].GetComponent<MeshRenderer>().material = inactiveMaterial;
     }
 }
