@@ -8,6 +8,7 @@ public class PressurePlate : MonoBehaviour
     public bool toggle = false;
 	public UnityEvent pressEvent;
 	public UnityEvent unpressEvent;
+	public AudioSource sound;
 
 	Animator animator;
 
@@ -21,8 +22,13 @@ public class PressurePlate : MonoBehaviour
 		if (!other.isTrigger)
 		{
 			animator.SetTrigger("Press");
-			pressEvent.Invoke();
+			sound.Play();
 		}
+	}
+
+	public void Press()
+	{
+		pressEvent.Invoke();
 	}
 
 	private void OnTriggerExit(Collider other)
@@ -30,7 +36,12 @@ public class PressurePlate : MonoBehaviour
 		if (!other.isTrigger && !toggle)
 		{
 			animator.SetTrigger("Unpress");
-			unpressEvent.Invoke();
+			sound.Play();
 		}
+	}
+
+	public void Unpress()
+	{
+		unpressEvent.Invoke();
 	}
 }

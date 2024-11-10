@@ -49,6 +49,11 @@ public class LightBeam : MonoBehaviour
 				refractLight.gameObject.SetActive(false);
 				finalPoint = direction * 500f;
 			}
+            LightReceptacle receptacle;
+			if (ray.collider && ray.collider.TryGetComponent(out receptacle))
+            {
+                receptacle.Activate();
+            }
 			positions.Add(finalPoint);
 			direction = Vector3.Reflect(direction, ray.normal);
             currentPosition = finalPoint;
