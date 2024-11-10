@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Networking;
-using UnityEngine.Purchasing.MiniJSON;
 
 public class EvilRobot : MonoBehaviour
 {
@@ -12,6 +12,8 @@ public class EvilRobot : MonoBehaviour
 	const string URL = "https://api.openai.com/v1/chat/completions";
 	// shhhhh
 	const string TOKEN = "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";
+
+	UnityEvent<string> textEvent;
 
 	private void Start()
 	{
@@ -69,6 +71,6 @@ public class EvilRobot : MonoBehaviour
 
 	private void HandleText(string text)
 	{
-		Debug.Log(text);
+		textEvent.Invoke(text);
 	}
 }
