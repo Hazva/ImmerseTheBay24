@@ -39,3 +39,6 @@ https://pixabay.com/sound-effects/large-metal-lift-door-openingwav-14459/ Door o
 https://pixabay.com/sound-effects/closing-metal-door-44280/ Door close
 https://pixabay.com/sound-effects/concrete-footsteps-2wav-14794/ Teleport walk sound
 https://pixabay.com/sound-effects/waterfall-sounds-259625/ Waterfall loop
+
+Sources:
+https://lifestyle.livemint.com/news/big-story/ai-carbon-footprint-openai-chatgpt-water-google-microsoft-111697802189371.html
