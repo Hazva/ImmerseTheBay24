@@ -15,7 +15,6 @@ public class Terminal : MonoBehaviour
 
 	private void Awake()
 	{
-		inputField = GetComponent<TMP_InputField>();
 		gpt = GetComponent<ChatGPT>();
 		inputField.onSubmit.AddListener(Submit);
 	}
