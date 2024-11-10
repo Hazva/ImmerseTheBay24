@@ -34,9 +34,12 @@ public class PressurePlate : MonoBehaviour
 		if (!other.isTrigger)
 		{
 			animator.SetBool("Press", true);
-			if (releaseCoroutine != null )
-				StopCoroutine(releaseCoroutine);
-			releaseCoroutine = StartCoroutine(ReleaseCoroutine());
+			if (!toggle)
+			{
+				if (releaseCoroutine != null)
+					StopCoroutine(releaseCoroutine);
+				releaseCoroutine = StartCoroutine(ReleaseCoroutine());
+			}
 		}
 	}
 
