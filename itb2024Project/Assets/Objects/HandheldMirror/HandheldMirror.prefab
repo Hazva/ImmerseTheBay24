@@ -338,10 +338,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound: {fileID: 8300000, guid: c9c40825c6e88924793e880e05202cde, type: 3}
-  volume: 0.05
+  volume: 0.1
   forceCoefficient: 0.05
   maxVolume: 2
-  minForce: 0.5
+  minForce: 0.1
 --- !u!1001 &809808230992766765
 PrefabInstance:
   m_ObjectHideFlags: 0
