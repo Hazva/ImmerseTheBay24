@@ -291,7 +291,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 1.5
+  m_ThrowVelocityScale: 5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
@@ -306,7 +306,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4486748779208399015}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 4118284c3cc3a5946b6f7c99d2aabe4d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -344,7 +344,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4486748779208399015}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 4118284c3cc3a5946b6f7c99d2aabe4d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
