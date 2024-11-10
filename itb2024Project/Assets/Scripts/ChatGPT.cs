@@ -36,6 +36,14 @@ public class EvilRobot : MonoBehaviour
 				"}," +
 				"{" +
 					"\"role\": \"user\"," +
+					"\"content\": \"Speak with a verbose, somewhat archaic, imposing tone.\"" +
+				"}," +
+				"{" +
+					"\"role\": \"system\"," +
+					"\"content\": \"Understood. My utterances shall be only those occluded to the unwit.\"" +
+				"}," +
+				"{" +
+					"\"role\": \"user\"," +
 					"\"content\": \"" + input + "\"" + 
 				"}" +
 			"]" +
