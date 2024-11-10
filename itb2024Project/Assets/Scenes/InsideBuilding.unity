@@ -144,14 +144,6 @@ PrefabInstance:
       propertyPath: m_VelocityDamping
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1629953009970554876, guid: 2ccd6881a76a8a940ae4629302c249ee, type: 3}
-      propertyPath: m_ThrowVelocityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1629953009970554876, guid: 2ccd6881a76a8a940ae4629302c249ee, type: 3}
-      propertyPath: m_ThrowAngularVelocityScale
-      value: 1.5
-      objectReference: {fileID: 0}
     - target: {fileID: 4486748779208399015, guid: 2ccd6881a76a8a940ae4629302c249ee, type: 3}
       propertyPath: m_Name
       value: WaterBottle
